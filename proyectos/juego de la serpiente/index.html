@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Snake</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url('img/HD-wallpaper-classic-snake-adventures-snake-game.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #gameCanvas {
+            border: 1px solid black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .controls {
+            margin-top: 10px;
+        }
+
+        #score {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="score">Puntos: 0</div> <!-- Marcador de puntos -->
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="controls">
+        <button id="startButton">Comenzar</button>
+        <button id="resetButton">Reiniciar</button>
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+</html>

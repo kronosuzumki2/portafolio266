@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-image: url('https://w0.peakpx.com/wallpaper/126/831/HD-wallpaper-blue-sky-light-night.jpg');
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}

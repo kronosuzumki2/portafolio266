@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.top_header {
+    height: 32px;
+    width: 100%;
+    background-color:rgb(89, 218, 9);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .top_header img {
+        height: 30px;
+        padding-inline-start: 12px;
+        margin-left: 8px;
+    }
+
+    .top_header_right {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+        .top_header_right a {
+             text-decoration: none;
+             color: #fff;
+             margin-right: 14px;
+             margin-right: 11px;
+             font-size: 12px;
+             align-items: center;
+        }
+        .top_header_right a:hover {
+            color: #ecce35;
+        }
+
+
+
+
+
+
+
+.navbar {
+    margin-top: 32px;
+    display: flex;
+    height: 64px;
+    width: 100%;
+    background-color: rgb(246, 255, 0);
+    position: fixed;
+    align-items: center;
+}
+    .burguer {
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background-color: hsla(0, 0%, 100%, .15);
+        margin: 0px 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: #fff;
+    }
+        .burguer span {
+            font-size: 20px;
+            
+        }
+    .navbar img {
+        width: 3rem;
+        margin-right: 36px;
+    }
+    .navegador a {
+        margin-right: 27px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #fff;
+    }
+        .navbar a:hover {
+            color: rgb(89, 218, 9);
+        }
+    .idioma {
+        background-color: hsla(0, 0%, 100%, .15);
+        height: 24px;
+        width: 44px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgb(0 0 0 /15%);
+        margin-right: 22px;
+    }
+
+
+
+.section_header{
+    overflow: hidden;
+}
+.section_header aside {
+    position: absolute;
+    width: 25%;
+    height: 576px;
+    background-color: rgb(44, 212, 11);
+    margin-top: 96px;
+}
+
+.section_header img {
+    display: flex;
+    float: right;
+    margin-right: -51px;
+    width: 1162px;
+    height: 576px;
+    margin-top: 96px;
+}
+
+
+section {
+    height: 900px;
+}
